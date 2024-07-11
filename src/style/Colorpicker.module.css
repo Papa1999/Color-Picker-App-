@@ -1,0 +1,39 @@
+.container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 3rem;
+  margin: 50px;
+}
+
+.color_display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px hsl(0, 0%, 80%);
+  color: hsl(0, 0%, 20%);
+  border-radius: 25px;
+  margin-bottom: 30px;
+  transition: 0.25s ease;
+  font-size: 1.60rem;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.color_choose {
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 3px hsl(0, 0%, 80%);
+}
